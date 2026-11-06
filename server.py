@@ -3,7 +3,7 @@ from fastapi import FastAPI, Form, Request, Response
 from twilio.twiml.messaging_response import MessagingResponse
 from agent import create_initial_state, chat
 from database import get_or_create_seller
-from storage import process_images  # NEW IMPORT
+from storage import process_images
 import uvicorn
 import logging
 

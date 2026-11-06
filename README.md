@@ -7,6 +7,9 @@ Welcome to SharpShop — a smart WhatsApp chatbot that helps sellers manage thei
 - 📦 **Inventory Actions**: Create, query, update, and list products.
 - 📱 **WhatsApp Integration**: Works directly via Twilio Sandbox.
 - ⚡ **Fast Inference**: Powered by Groq.
+- 🗄️ **Persistent Storage**: Sellers, products and product images are stored in Supabase.
+
+Built with [Abubakar-Sadiq Saidu](https://github.com/sadiqsaidu) as a Meta AI Developer Academy competition entry.
 
 ## Prerequisites
 - Python 3.12+
@@ -18,7 +21,7 @@ Welcome to SharpShop — a smart WhatsApp chatbot that helps sellers manage thei
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/sharpshop.git
+   git clone https://github.com/MHVVD/sharpshop.git
    cd sharpshop
    ```
 
@@ -37,6 +40,8 @@ Welcome to SharpShop — a smart WhatsApp chatbot that helps sellers manage thei
    Create a `.env` file in the root directory:
    ```bash
    GROQ_API_KEY=your_groq_api_key_here
+   SUPABASE_URL=your_supabase_project_url
+   SUPABASE_KEY=your_supabase_key
    ```
 
 ## Running the Bot
